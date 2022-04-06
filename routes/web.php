@@ -13,11 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     $items = [
         '혜라',
         '해정'
     ];
 
     return view('index', compact('items'));
+});*/
+
+Route::get('/', function () {
+    return view('index');
 });
