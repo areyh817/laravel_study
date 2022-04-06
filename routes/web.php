@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $items = [
-        'Apple',
-        'Banana'
+        '혜라',
+        '해정'
     ];
 
     return view('index', compact('items'));
